@@ -8,7 +8,7 @@ const isRightTriangle = (a, b, c) => {
       }
     }
     else {
-      console.log('Please enter the side lengths of a triangle.');
+      return 'Please enter the side lengths of a triangle.';
   }
 
 };
