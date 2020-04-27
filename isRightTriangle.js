@@ -7,9 +7,6 @@ const isRightTriangle = (a, b, c) => {
         return false;
       }
     }
-    else {
-      return 'Please enter the side lengths of a triangle.';
-  }
-
+    return false;
 };
 module.exports = isRightTriangle;
