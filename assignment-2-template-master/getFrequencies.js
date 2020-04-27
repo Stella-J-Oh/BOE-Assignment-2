@@ -10,7 +10,7 @@ const getFrequencies = (arr) => {
         freq[nums[i]] = 1;
       }
     }
-  console.log(freq);
+  return freq;
 };
 
 module.exports = getFrequencies;
