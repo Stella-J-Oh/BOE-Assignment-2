@@ -1,5 +1,5 @@
 const greet = (name) => {
-  console.log(`Heyo ${name}! What's poppin'?`);
+  return `Heyo ${name}! What's poppin'?`;
 };
 
 module.exports = greet;
