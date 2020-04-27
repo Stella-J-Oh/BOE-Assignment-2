@@ -7,7 +7,7 @@ const fibonacciNums = (n) => {
       prev = pres;
       pres = next
     }
-    return fibSeq(n);
+    return fib;
 };
 
 module.exports = fibonacciNums;
