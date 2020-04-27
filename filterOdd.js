@@ -1,8 +1,8 @@
 const filterOdd = (arr) => {
   function isOdd(num) {
-    if (num %2 !== 0) return num;
+    return (num %2 !== 0);
   }
-  console.log(arr.filter(isOdd));
+  return arr.filter(isOdd);
 };
 
 module.exports = filterOdd;
