@@ -2,12 +2,12 @@ const getFrequencies = (arr) => {
     arr.sort();
     let freq = {};
 
-    for (var i = 0; i < nums.length; i++) {
-      if (freq[nums[i]]) {
-        freq[nums[i]] += 1;
+    for (var i = 0; i < arr.length; i++) {
+      if (freq[arr[i]]) {
+        freq[arr[i]] += 1;
       }
       else {
-        freq[nums[i]] = 1;
+        freq[arr[i]] = 1;
       }
     }
   return freq;
